@@ -29,7 +29,6 @@ class Triangle
     def message
       "Sides provided do not make a valid triangle"
     end
-
   end
 
 
