@@ -19,5 +19,5 @@ class Triangle
   end
 
   class TriangleError << StandardError
-    x
+    
 end
