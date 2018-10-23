@@ -24,10 +24,6 @@ class Triangle
     @side1 + @side2 > @side3 && @side1 + @side3 > @side2 && @side2 + @side3 > @side1
   end
 
-
-  end
-
-
   class TriangleError < StandardError
 
   end
