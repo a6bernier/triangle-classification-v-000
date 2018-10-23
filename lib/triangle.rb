@@ -21,10 +21,13 @@ class Triangle
     end
 
   def validate
-    @side1 + @side2 > @side3 && @side1 + @side3 > @side2 && @side2 + @side3 > @side1
+    @side1 + @side2 > @side3 && @side1 + @side3 > @side2 && @side2 + @side3 > @side1 && @side1 > 0 && @side2 > 0 && @side 3 > 0
+
   end
 
   class TriangleError < StandardError
+    def message
+      "Sides provided do not make a valid triangle"
 
   end
 
