@@ -16,6 +16,13 @@ class Triangle
     elsif @side1 != @side2 && @side1 != @side3
       :scalene
     end
+    else
+      raise TriangleError
+  end
+
+
+  class TriangleError < StandardError
+
   end
 
 
