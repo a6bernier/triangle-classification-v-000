@@ -15,8 +15,6 @@ class Triangle
       :isosceles
     elsif @side1 != @side2 && @side1 != @side3
       :scalene
-    elsif @side1.length == 0 && @side2.length == 0 && @side3.length == 0
-      TriangleError
     end
   end
 
