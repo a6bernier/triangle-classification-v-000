@@ -18,4 +18,8 @@ class Triangle
     end
   end
 
+  class Triangle << StandardError
+
+  end
+
 end
